@@ -23,6 +23,10 @@ greeting.helloWorld = function() {
     alert("hello devs. I am being called from an object");
 };
 
+function add(number1, number2) {
+    return number1 + number2;
+}
+
 // function Person(firstname, lastName) {
 //     this.firstname = firstname;
 //     this.lastName = lastName;
