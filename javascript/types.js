@@ -28,3 +28,4 @@ person: ${typeof person}
 
 // avatar: ${typeof avatar}  - typeof  null returns object which is a bug.
 // use (avatar == null) to check for null
+console.log("just now");
