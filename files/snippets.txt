@@ -1,0 +1,7 @@
+Pass by value
+Pass by reference
+when do you dont pass enough arguments
+scope - local and global
+hoisting
+variable hoisting
+function hoisting
