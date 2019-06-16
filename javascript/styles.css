@@ -1,0 +1,14 @@
+h1{
+    font-size: 20px;
+    border-bottom: 1px solid
+}
+
+.article {
+    background-color: yellow;
+    padding: 20px;
+    
+}
+
+#container {
+    font-style: italic;
+}
