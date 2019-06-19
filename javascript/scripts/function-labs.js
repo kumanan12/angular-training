@@ -9,40 +9,40 @@ function helloWorld() {
 
 //anonymous function expression
 
-var x= function() {
-    console.log("Hello JS Devs");
-};
+// var x= function() {
+//     console.log("Hello JS Devs");
+// };
 
-x();
+// x();
 
-// named function expression
+// // named function expression
 
-var y= function hello() {
-    // console.log("Hello JS Devs");
-    console.log("Hello JS Devs named func");
+// var y= function hello() {
+//     // console.log("Hello JS Devs");
+//     console.log("Hello JS Devs named func");
 
-};
+// };
 
-y();
+// y();
 
 
 
 // functions within objects
-var greeting = {};
-var person ={};
-person.firstName = "Kumanan";
-person.lastName = "Murugesan";
-console.log(person);
-// var greeting = Object.create(null);
-greeting.helloWorld = function() {
-    console.log("hello devs. I am being called from an object");
-};
+// var greeting = {};
+// var person ={};
+// person.firstName = "Kumanan";
+// person.lastName = "Murugesan";
+// console.log(person);
+// // var greeting = Object.create(null);
+// greeting.helloWorld = function() {
+//     console.log("hello devs. I am being called from an object");
+// };
 
-greeting.helloWorld();
+// greeting.helloWorld();
 
-function add(number1, number2) {
-    return number1 + number2;
-}
+// function add(number1, number2) {
+//     return number1 + number2;
+// }
 
 // function Person(firstname, lastName) {
 //     this.firstname = firstname;
