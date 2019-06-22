@@ -8,8 +8,16 @@
     <script src="https://kit.fontawesome.com/fa0ea806c7.js"></script>
     <script>
         function onDocumentLoaded() {
-            alert("doc loaded");
+            // alert("doc loaded");
         }
+
+        function changeHeader() {
+            const header = document.getElementById("header");
+            header.textContent = "changed the function";
+        }
+
+        // changeHeader();
+    // window.onload = changeHeader;        
     </script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -21,7 +29,7 @@
     <div class="container">
         <div class="row">
             <div class="col-6">
-                 <h1>Function Labs</h1>
+                 <h1 id="header">Function Labs</h1>
             </div>
             <div class="col-6">
                 <h2>
