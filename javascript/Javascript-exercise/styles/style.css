@@ -1,0 +1,10 @@
+body{
+    background-color: beige;
+    margin: 20px;
+    padding: 10px;
+}
+
+p {
+    background-color: chartreuse;
+    font-style: italic;
+}
