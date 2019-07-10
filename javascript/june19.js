@@ -41,11 +41,3 @@ longAdd(2,3,onLongAddCompleted);
 
 
 
-var x = 2;
-var y = "2";
-if(x == y) {
-    console.log("x and y are equal");
-}else {
-    console.log("x and y are not equal");
-
-}
