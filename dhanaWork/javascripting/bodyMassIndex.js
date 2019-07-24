@@ -1,5 +1,5 @@
-function bodyMassIndex(weight,height){
-    return weight/(height*height)
-};
+function bodyMassIndex(weight, height) {
+    return weight / (height * height)
+}
 
-console.log(bodyMassIndex(53,5.5));
+console.log(bodyMassIndex(53, 5.5));

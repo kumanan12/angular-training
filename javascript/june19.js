@@ -39,5 +39,11 @@ function onLongAddCompleted(result) {
 
 longAdd(2,3,onLongAddCompleted);
 
+var scores = [60, 75, 80, 92, 77, 99, 83, 71, 68, 88];
+
+for (var i = 0; i < scores.length; i++) {
+    console.log(scores[i]);
+}
+
 
 

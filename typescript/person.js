@@ -6,5 +6,8 @@ var Person = /** @class */ (function () {
     Person.prototype.getName = function () {
         return this.firstName + " " + this.lastName;
     };
+    Person.prototype.getName1 = function () {
+        return this.firstName + " " + this.lastName;
+    };
     return Person;
 }());

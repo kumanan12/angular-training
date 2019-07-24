@@ -10,4 +10,8 @@ class Person {
     getName() {
         return `${this.firstName} ${this.lastName}`;
     }
+
+    getName1() {
+        return `${this.firstName} ${this.lastName}`;
+    }
 }
